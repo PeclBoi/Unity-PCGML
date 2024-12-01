@@ -1,0 +1,38 @@
+{
+    "PlaceHouseAgent": {
+        "checkpoints": [
+            {
+                "steps": 499999,
+                "file_path": "results\\ppo\\PlaceHouseAgent\\PlaceHouseAgent-499999.onnx",
+                "reward": 0.9428571377481733,
+                "creation_time": 1733063880.766274,
+                "auxillary_file_paths": [
+                    "results\\ppo\\PlaceHouseAgent\\PlaceHouseAgent-499999.pt"
+                ]
+            },
+            {
+                "steps": 542310,
+                "file_path": "results\\ppo\\PlaceHouseAgent\\PlaceHouseAgent-542310.onnx",
+                "reward": 0.9671232847318257,
+                "creation_time": 1733064380.0879447,
+                "auxillary_file_paths": [
+                    "results\\ppo\\PlaceHouseAgent\\PlaceHouseAgent-542310.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 542310,
+            "file_path": "results\\ppo\\PlaceHouseAgent.onnx",
+            "reward": 0.9671232847318257,
+            "creation_time": 1733064380.0879447,
+            "auxillary_file_paths": [
+                "results\\ppo\\PlaceHouseAgent\\PlaceHouseAgent-542310.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
